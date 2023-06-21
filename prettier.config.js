@@ -21,11 +21,5 @@ module.exports = {
       '',
       '^[./]',
    ],
-   importOrderSeparation: false,
-   importOrderSortSpecifiers: true,
-   importOrderBuiltinModulesToTop: true,
-   importOrderParserPlugins: ["typescript", "jsx", "decorators-legacy"],
-   importOrderMergeDuplicateImports: true,
-   importOrderCombineTypeAndValueImports: true,
    plugins: [require('prettier-plugin-tailwindcss'), "@ianvs/prettier-plugin-sort-imports"],
 }

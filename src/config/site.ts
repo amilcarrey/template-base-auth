@@ -8,6 +8,10 @@ export const siteConfig = {
       title: 'Home',
       href: '/',
     },
+    {
+      title: 'Login',
+      href: '/login',
+    },
   ],
   links: {
     twitter: 'https://twitter.com/amilcarrey',
